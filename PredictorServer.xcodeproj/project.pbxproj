@@ -44,14 +44,6 @@
 		43D41236287E640800B7E496 /* SkaterModelTeamGameStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D41235287E640800B7E496 /* SkaterModelTeamGameStats.swift */; };
 		43FAA8F128830F4F00DD3195 /* SkaterModelExpectedStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FAA8F028830F4F00DD3195 /* SkaterModelExpectedStats.swift */; };
 		43FAA8FB28864B3100DD3195 /* SkaterModelStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FAA8FA28864B3100DD3195 /* SkaterModelStats.swift */; };
-		43FAA915288B675D00DD3195 /* SkaterPPAssistsModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 43FAA90D288B675D00DD3195 /* SkaterPPAssistsModel.mlmodel */; };
-		43FAA916288B675D00DD3195 /* SkaterSHGoalsModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 43FAA90E288B675D00DD3195 /* SkaterSHGoalsModel.mlmodel */; };
-		43FAA917288B675D00DD3195 /* SkaterShotsModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 43FAA90F288B675D00DD3195 /* SkaterShotsModel.mlmodel */; };
-		43FAA918288B675D00DD3195 /* SkaterGoalsModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 43FAA910288B675D00DD3195 /* SkaterGoalsModel.mlmodel */; };
-		43FAA919288B675D00DD3195 /* SkaterAssistsModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 43FAA911288B675D00DD3195 /* SkaterAssistsModel.mlmodel */; };
-		43FAA91A288B675D00DD3195 /* SkaterPPGoalsModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 43FAA912288B675D00DD3195 /* SkaterPPGoalsModel.mlmodel */; };
-		43FAA91B288B675D00DD3195 /* SkaterBlockedShotsModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 43FAA913288B675D00DD3195 /* SkaterBlockedShotsModel.mlmodel */; };
-		43FAA91C288B675D00DD3195 /* SkaterSHAssistsModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 43FAA914288B675D00DD3195 /* SkaterSHAssistsModel.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -105,14 +97,6 @@
 		43D41235287E640800B7E496 /* SkaterModelTeamGameStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkaterModelTeamGameStats.swift; sourceTree = "<group>"; };
 		43FAA8F028830F4F00DD3195 /* SkaterModelExpectedStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkaterModelExpectedStats.swift; sourceTree = "<group>"; };
 		43FAA8FA28864B3100DD3195 /* SkaterModelStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkaterModelStats.swift; sourceTree = "<group>"; };
-		43FAA90D288B675D00DD3195 /* SkaterPPAssistsModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SkaterPPAssistsModel.mlmodel; sourceTree = "<group>"; };
-		43FAA90E288B675D00DD3195 /* SkaterSHGoalsModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SkaterSHGoalsModel.mlmodel; sourceTree = "<group>"; };
-		43FAA90F288B675D00DD3195 /* SkaterShotsModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SkaterShotsModel.mlmodel; sourceTree = "<group>"; };
-		43FAA910288B675D00DD3195 /* SkaterGoalsModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SkaterGoalsModel.mlmodel; sourceTree = "<group>"; };
-		43FAA911288B675D00DD3195 /* SkaterAssistsModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SkaterAssistsModel.mlmodel; sourceTree = "<group>"; };
-		43FAA912288B675D00DD3195 /* SkaterPPGoalsModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SkaterPPGoalsModel.mlmodel; sourceTree = "<group>"; };
-		43FAA913288B675D00DD3195 /* SkaterBlockedShotsModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SkaterBlockedShotsModel.mlmodel; sourceTree = "<group>"; };
-		43FAA914288B675D00DD3195 /* SkaterSHAssistsModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SkaterSHAssistsModel.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,7 +216,6 @@
 		43D4122E287BCFB500B7E496 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				43FAA8FC288B5DCB00DD3195 /* Regressors */,
 				43D4122F287BCFCD00B7E496 /* SkaterModel.swift */,
 				43D41231287D16C700B7E496 /* SkaterModelData.swift */,
 				43FAA8FA28864B3100DD3195 /* SkaterModelStats.swift */,
@@ -241,21 +224,6 @@
 				43D41235287E640800B7E496 /* SkaterModelTeamGameStats.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		43FAA8FC288B5DCB00DD3195 /* Regressors */ = {
-			isa = PBXGroup;
-			children = (
-				43FAA911288B675D00DD3195 /* SkaterAssistsModel.mlmodel */,
-				43FAA913288B675D00DD3195 /* SkaterBlockedShotsModel.mlmodel */,
-				43FAA910288B675D00DD3195 /* SkaterGoalsModel.mlmodel */,
-				43FAA90D288B675D00DD3195 /* SkaterPPAssistsModel.mlmodel */,
-				43FAA912288B675D00DD3195 /* SkaterPPGoalsModel.mlmodel */,
-				43FAA914288B675D00DD3195 /* SkaterSHAssistsModel.mlmodel */,
-				43FAA90E288B675D00DD3195 /* SkaterSHGoalsModel.mlmodel */,
-				43FAA90F288B675D00DD3195 /* SkaterShotsModel.mlmodel */,
-			);
-			path = Regressors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,25 +309,17 @@
 				43BF769627C1B7C600CD9874 /* ConstantStrings.swift in Sources */,
 				434FA9562873C82900FEB0F2 /* DatabaseGame.swift in Sources */,
 				434FA946287358BD00FEB0F2 /* DatabaseConference.swift in Sources */,
-				43FAA917288B675D00DD3195 /* SkaterShotsModel.mlmodel in Sources */,
 				4388EC7727DE6795004BB9E9 /* WebData.swift in Sources */,
-				43FAA918288B675D00DD3195 /* SkaterGoalsModel.mlmodel in Sources */,
-				43FAA91A288B675D00DD3195 /* SkaterPPGoalsModel.mlmodel in Sources */,
-				43FAA915288B675D00DD3195 /* SkaterPPAssistsModel.mlmodel in Sources */,
 				434FA94828735C5100FEB0F2 /* WebDivision.swift in Sources */,
 				43BF769827C1C8D400CD9874 /* Database.swift in Sources */,
 				43D41225287A67A100B7E496 /* WebPlayerStats.swift in Sources */,
 				43D4122D287B784F00B7E496 /* DatabaseGoalieStats.swift in Sources */,
 				43D41236287E640800B7E496 /* SkaterModelTeamGameStats.swift in Sources */,
-				43FAA919288B675D00DD3195 /* SkaterAssistsModel.mlmodel in Sources */,
-				43FAA91C288B675D00DD3195 /* SkaterSHAssistsModel.mlmodel in Sources */,
-				43FAA91B288B675D00DD3195 /* SkaterBlockedShotsModel.mlmodel in Sources */,
 				43D41234287E63E400B7E496 /* SkaterModelGameStats.swift in Sources */,
 				43BF76BE27C5D7E500CD9874 /* Logger.swift in Sources */,
 				43FAA8FB28864B3100DD3195 /* SkaterModelStats.swift in Sources */,
 				43D41229287A725600B7E496 /* DatabasePlayer.swift in Sources */,
 				43D41227287A6BCC00B7E496 /* DatabaseSkaterStats.swift in Sources */,
-				43FAA916288B675D00DD3195 /* SkaterSHGoalsModel.mlmodel in Sources */,
 				434FA933287264D400FEB0F2 /* Setup.swift in Sources */,
 				434FA93E28729FFB00FEB0F2 /* DatabaseLogin.swift in Sources */,
 				43B1EC77277C30D5003BFE5D /* main.swift in Sources */,
